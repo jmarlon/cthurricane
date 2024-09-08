@@ -4,7 +4,7 @@
 root <- "path"
 
 ## Read SPSS
-data <- read.spss(paste0(root, "_data/30118_sample_plus_survey_weighted_completed_n1130_plus_clusters_latlong.sav", reencode="utf-8",to.data.frame=TRUE,use.missings=F))
+data <- read.spss(paste0(root, "_data/30118_sample_plus_survey_weighted_completed_n1130_plus_clusters_latlong.sav"), reencode="utf-8",to.data.frame=TRUE,use.missings=F)
 
 
 ### Select and rename variables
